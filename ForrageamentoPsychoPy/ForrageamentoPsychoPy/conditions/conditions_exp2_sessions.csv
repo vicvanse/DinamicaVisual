@@ -1,0 +1,28 @@
+# Experiment 2 — menu session → initial distractor (L) counts per panel.
+# Both panels always contain a T; the session changes how many L are on each side.
+# Changing the session number changes the proportion. session_run (repetition) does not.
+# Sessions 6–10 repeat the same ratios as sessions 1–5.
+#
+# Columns:
+#   session       — menu session id (1–10)
+#   ratio_label   — design label written to output (e.g. 20vs60)
+#   w_esq         — left design weight (matching-law)
+#   w_dir         — right design weight
+#   n_L_left      — initial number of L letters on the left panel
+#   n_L_right     — initial number of L letters on the right panel
+#   correctkey    — metadata only; does NOT place T on one side (both sides have T)
+#   duration_s    — planned continuous-session length in seconds (override: FORR_EXP2_DURATION_S)
+#
+# n_L_left + n_L_right = 150 (EXP2_N_DISTRACTOR_TOTAL). Example 20vs60 → 38 left, 112 right.
+#
+session,ratio_label,w_esq,w_dir,n_L_left,n_L_right,correctkey,duration_s
+1,20vs60,20,60,38,112,Right,420
+2,40vs60,40,60,60,90,Right,420
+3,60vs60,60,60,75,75,Right,420
+4,60vs40,60,40,90,60,Left,420
+5,60vs20,60,20,112,38,Left,420
+6,20vs60,20,60,38,112,Right,420
+7,40vs60,40,60,60,90,Right,420
+8,60vs60,60,60,75,75,Right,420
+9,60vs40,60,40,90,60,Left,420
+10,60vs20,60,20,112,38,Left,420

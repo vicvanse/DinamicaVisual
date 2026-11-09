@@ -1,0 +1,1 @@
+Session_Name_	Trial_Index_	trial	correctkey	PROB	ACCURACY	KEY_PRESSED	REFORCO	drift_stimuli	Trial_Recycled_	CEMmsFixation	alvos	EscolhaDiscretaData	fundoesquerda	fundodireita	Alvo

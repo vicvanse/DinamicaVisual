@@ -1,0 +1,9 @@
+# Run this project with PsychoPy 2023.2.x python.exe (Python 3.8+) — recommended.
+#
+# PsychoPy 2021.2.x ships Python 3.6; if site-packages were upgraded (pip),
+# imports like psychopy.visual may fail (pandas/pytest/cryptography need 3.7+).
+# Fix: use 2023 standalone, or reinstall 2021 standalone without global pip upgrades.
+#
+# pylink: SR Research EyeLink Developers Kit (not on PyPI)
+#
+# openpyxl — opcional; necessário para exportar sessão em .xlsx (pip install openpyxl)

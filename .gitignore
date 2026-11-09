@@ -1,0 +1,16 @@
+﻿__pycache__/
+*.py[cod]
+*.class
+.venv/
+venv/
+.env
+data/
+*.edf
+*.EDF
+forrageamento_prefs.json
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*.log
